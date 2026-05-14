@@ -98,7 +98,7 @@ onUnmounted(() => {
 }
 
 .tab-btn.active {
-  color: #a5b4fc;
+  color: #5eead4;
 }
 
 .tab-btn.active::after {
@@ -108,7 +108,7 @@ onUnmounted(() => {
   left: 25%;
   width: 50%;
   height: 2px;
-  background: #6366f1;
+  background: #14b8a6;
   border-radius: 1px;
 }
 

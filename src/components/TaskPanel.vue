@@ -111,7 +111,7 @@ function handleAdd() {
 }
 
 .task-input:focus {
-  border-color: #6366f1;
+  border-color: #14b8a6;
 }
 
 .add-btn {
@@ -119,7 +119,7 @@ function handleAdd() {
   height: 32px;
   border: none;
   border-radius: 8px;
-  background: #6366f1;
+  background: #14b8a6;
   color: #fff;
   font-size: 18px;
   cursor: pointer;
@@ -154,8 +154,8 @@ function handleAdd() {
 }
 
 .task-item.active {
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: rgba(20, 184, 166, 0.1);
+  border: 1px solid rgba(20, 184, 166, 0.25);
 }
 
 .check-circle {

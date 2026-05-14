@@ -16,7 +16,7 @@ const dashOffset = computed(() => circumference * (1 - timer.progress))
 
 const ringColor = computed(() => {
   switch (timer.currentSession) {
-    case 'focus': return '#818cf8'
+    case 'focus': return '#2dd4bf'
     case 'shortBreak': return '#34d399'
     case 'longBreak': return '#f59e0b'
   }
@@ -62,7 +62,7 @@ const ringColor = computed(() => {
   position: absolute;
   width: 300px;
   height: 300px;
-  filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.3));
+  filter: drop-shadow(0 0 12px rgba(20, 184, 166, 0.3));
 }
 
 .progress-ring {
@@ -73,7 +73,7 @@ const ringColor = computed(() => {
   font-size: 52px;
   font-weight: 600;
   letter-spacing: 4px;
-  background: linear-gradient(135deg, #818cf8, #c084fc);
+  background: linear-gradient(135deg, #2dd4bf, #34d399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -47,13 +47,13 @@ const timer = useTimerStore()
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #6366f1, #818cf8);
+  background: linear-gradient(135deg, #0d9488, #14b8a6);
   color: #fff;
-  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 0 20px rgba(20, 184, 166, 0.3);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 30px rgba(20, 184, 166, 0.5);
 }
 
 .btn-warning {

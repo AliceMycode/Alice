@@ -44,8 +44,8 @@ const badgeClass = computed(() => `badge ${timer.currentSession}`)
 }
 
 .badge.focus {
-  background: rgba(99, 102, 241, 0.15);
-  color: #a5b4fc;
+  background: rgba(20, 184, 166, 0.15);
+  color: #5eead4;
 }
 
 .badge.shortBreak {

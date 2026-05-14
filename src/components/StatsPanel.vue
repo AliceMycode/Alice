@@ -86,7 +86,7 @@ function barHeight(count: number): number {
 .stat-number {
   font-size: 32px;
   font-weight: 700;
-  background: linear-gradient(135deg, #818cf8, #c084fc);
+  background: linear-gradient(135deg, #2dd4bf, #34d399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -129,13 +129,13 @@ function barHeight(count: number): number {
 .bar {
   width: 100%;
   max-width: 24px;
-  background: rgba(99, 102, 241, 0.4);
+  background: rgba(20, 184, 166, 0.4);
   border-radius: 4px 4px 0 0;
   min-height: 4px;
 }
 
 .bar-column.today .bar {
-  background: linear-gradient(180deg, #818cf8, #6366f1);
+  background: linear-gradient(180deg, #2dd4bf, #14b8a6);
 }
 
 .bar-label {

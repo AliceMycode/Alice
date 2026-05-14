@@ -83,7 +83,7 @@ h3 {
 }
 
 .value {
-  color: #818cf8;
+  color: #2dd4bf;
   font-weight: 500;
 }
 
@@ -103,13 +103,13 @@ h3 {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #818cf8;
+  background: #14b8a6;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 0 10px rgba(20, 184, 166, 0.4);
   transition: box-shadow 0.2s;
 }
 
 .slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 16px rgba(99, 102, 241, 0.6);
+  box-shadow: 0 0 16px rgba(20, 184, 166, 0.6);
 }
 </style>
