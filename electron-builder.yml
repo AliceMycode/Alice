@@ -1,0 +1,10 @@
+appId: com.pomodoro.timer
+productName: 番茄钟
+directories:
+  output: release
+win:
+  target: nsis
+  icon: null
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
